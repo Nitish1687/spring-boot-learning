@@ -1,4 +1,4 @@
-####FROM dockerfile/java:oracle-java7
+FROM dockerfile
 
 ADD /build/libs/spring-boot-learning-1.0-SNAPSHOT.jar /opt/spring-boot-learning-docker/
 
